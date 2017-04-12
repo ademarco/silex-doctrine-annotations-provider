@@ -26,7 +26,7 @@ $fooAnnotations = $app['annotations']->getClassAnnotations(new \ReflectionClass(
 |-----------|------|---------|-------------|
 | `annotations.use_simple_reader`   | `bool`                   | `false`         | Whether to use the Doctrine `AnnotationReader` or `SimpleAnnotationReader` class |
 | `annotations.register_autoloader` | `bool`                   | `true`          | Whether to autoload annotations using the PHP autoloader |
-| `annotations.cache`               | `string|Cache`           | `ArrayCache`    | `Doctrine\Common\Cache\Cache` instance or name of a service that implements `Doctrine\Common\Cache\Cache` |
+| `annotations.cache`               | `string`&#124;`Cache`           | `ArrayCache`    | `Doctrine\Common\Cache\Cache` instance or name of a service that implements `Doctrine\Common\Cache\Cache` |
 | `annotations.debug`               | `bool`                   | `$app['debug']` | Whether the cached reader should invalidate the cache files when the PHP class with annotations changed |
 | `annotations.ignored_names`       | `string[]`               | `[]`            | List of names that should be ignored by the annotations reader (Note: this is not supported by the `SimpleAnnotationReader`) |
 
