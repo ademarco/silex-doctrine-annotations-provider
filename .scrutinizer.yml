@@ -2,7 +2,7 @@ filter:
     paths: ["src/*"]
 build:
     environment:
-        php: '5.5'
+        php: '5.6'
     tests:
         override:
             -
