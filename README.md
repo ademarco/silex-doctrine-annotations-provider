@@ -1,4 +1,8 @@
 
+[![Build Status](https://travis-ci.org/skalpa/silex-doctrine-annotations-provider.svg?branch=master)](https://travis-ci.org/skalpa/silex-doctrine-annotations-provider)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/skalpa/silex-doctrine-annotations-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/skalpa/silex-doctrine-annotations-provider/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/skalpa/silex-doctrine-annotations-provider/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/skalpa/silex-doctrine-annotations-provider/?branch=master)
+
 # Doctrine Annotations Service Provider for Silex 2.x / Pimple 3.x
 
 Lets you to use the Doctrine annotations reader in your
