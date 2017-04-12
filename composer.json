@@ -1,0 +1,38 @@
+{
+    "name": "skalpa/silex-doctrine-annotations-provider",
+    "type": "library",
+    "description": "Doctrine annotations service provider for Pimple 3.x / Silex 2.x",
+    "keywords": ["pimple", "silex", "provider", "doctrine", "annotations"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pascal Luna",
+            "email": "skalpa@zetareticuli.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "pimple/pimple": "^3.0",
+        "doctrine/annotations": "^1.4",
+        "doctrine/cache": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skalpa\\Silex\\Doctrine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skalpa\\Silex\\Doctrine\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
